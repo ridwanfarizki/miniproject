@@ -8,9 +8,9 @@ Mini Project ini dibuat sebagai aplikasi informasi cuaca dengan data dari https:
 3. Chrome (Add On Allow-Control-Allow-Origin: *)
 
 #Fitur yang terdapat di aplikasi ini<br>
-1.Pencarian dan Menampilkan Indormasi Cuaca Berdasarkan Kota
-2.CRUD Kota
-3.Penyimpanan hasil dari pencarian informasi cuaca
+1.Pencarian dan Menampilkan Indormasi Cuaca Berdasarkan Kota<br>
+2.CRUD Kota<br>
+3.Penyimpanan hasil dari pencarian informasi cuaca<br>
 
 #Installation<br>
 1. Install dan aktifkan Addon Allow-Control-Allow-Origin: * pada chrome(parse data json dari https://www.metaweather.com/api/ ke aplikasi)
