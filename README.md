@@ -16,11 +16,11 @@ Penyimpanan hasil dari pencarian informasi cuaca
 1. Install dan aktifkan Addon Allow-Control-Allow-Origin: * pada chrome(parse data json dari https://www.metaweather.com/api/ ke aplikasi)
 2. Masukkan folder projek "miniproject" ke dalam htdocs atau web server
 3. import database miniproject.sql
-4. setting database.php di project/application/config/database
-	'hostname' => 'localhost:3307',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'miniproject', 
+4. setting database.php di project/application/config/database<br>
+	'hostname' => 'localhost:3307',<br>
+	'username' => 'root',<br>
+	'password' => '',<br>
+	'database' => 'miniproject', <br>
 sesuaikan dengan settingan database yang kalian miliki
 5. jalankan aplikasi mu di browser dengan link sesuai path project berada
 
