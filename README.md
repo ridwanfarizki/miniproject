@@ -1,23 +1,20 @@
-###################
+
 Cara Penggunaan Mini Project
-###################
+######################################
  Mini Project ini dibuat sebagai aplikasi informasi cuaca dengan data dari https://www.metaweather.com/api/ yang menampilkan berdasarkan hari ini sampai dengan hari berikutnya sampai 5 hari kedepan. Aplikasi ini memiliki fitur pencarian berdasarkan kota, menyimpan hasil informasi cuaca berdasarkan pencarian kota.
 
-*******************
 Tools Requirements 
 *******************
 1. Framework Codeigniter 3.1.9
 2. XAMPP v.3.2.2
 3. Chrome (Add On Allow-Control-Allow-Origin: *)
 
-**************************
 Fitur yang terdapat di aplikasi ini
-**************************
+****************************************************
 Pencarian dan Menampilkan Indormasi Cuaca Berdasarkan Kota
 CRUD Kota
 Penyimpanan hasil dari pencarian informasi cuaca
 
-************
 Installation
 ************
 1. Install dan aktifkan Addon Allow-Control-Allow-Origin: * pada chrome(parse data json dari https://www.metaweather.com/api/ ke aplikasi)
@@ -31,4 +28,4 @@ Installation
 sesuaikan dengan settingan database yang kalian miliki
 5. jalankan aplikasi mu di browser dengan link sesuai path project berada
 
-<img src="/ridwanfarizki/miniproject/raw/master/images/tampilan1.png" style="max-width:100%;">
+<img src="/ridwanfarizki/miniproject/raw/master/tampilan1.png" style="max-width:100%;">
