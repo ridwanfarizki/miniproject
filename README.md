@@ -24,4 +24,4 @@ Mini Project ini dibuat sebagai aplikasi informasi cuaca dengan data dari https:
 sesuaikan dengan settingan database yang kalian miliki
 5. jalankan aplikasi mu di browser dengan link sesuai path project berada
 
-<img src="https://raw.githubusercontent.com/ridwanfarizki/miniproject/master/tampilan1.jpg" style="max-width:100%;">
+<img src="https://raw.githubusercontent.com/ridwanfarizki/miniproject/master/tampilan1.JPG" style="max-width:100%;">
