@@ -252,4 +252,8 @@ class Welcome extends CI_Controller {
 		$data=$this->Dashboard_model->get_detail($id);
 		echo json_encode($data);
 	}
+
+	public function reverse(){
+		$this->load->view('v_reverse_geocoding'); 
+	}
 }

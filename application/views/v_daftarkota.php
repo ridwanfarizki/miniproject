@@ -4,7 +4,9 @@
         <div class="container-fluid">
             <div class="topnav">
                 <a href="<?php echo site_url(); ?>">Home</a>
-                <a class="active" href="<?php echo site_url('welcome/daftar_kota'); ?>">Daftar Kota</a>
+                <a href="<?php echo site_url('welcome/dashboard'); ?>">Dashboard</a>
+                <a href="<?php echo site_url('welcome/kota'); ?>">Daftar Kota</a>
+                <a class="active" href="<?php echo site_url('welcome/daftar_kota'); ?>">Master Daftar Kota</a>
             </div>
             <div style="margin-top:20px;">
                 <div class="row">

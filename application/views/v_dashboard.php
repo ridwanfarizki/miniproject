@@ -7,6 +7,7 @@
                 <a href="<?php echo site_url(); ?>">Home</a>
                 <a class="active" href="<?php echo site_url('dashboard'); ?>">Dashboard</a>
                 <a href="<?php echo site_url('welcome/kota'); ?>">Daftar Kota</a>
+                <a href="<?php echo site_url('welcome/daftar_kota'); ?>">Master Daftar Kota</a>
             </div>
             <div class="row" style="padding-top:10px;">
                 <div class="col-md-12">

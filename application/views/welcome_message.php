@@ -7,7 +7,7 @@ header('Access-Control-Allow-Origin: *',false);
 		<div class="topnav">
 		    <a class="active" href="<?php echo site_url(); ?>">Home</a>
 			<a href="<?php echo site_url('welcome/dashboard'); ?>">Dashboard</a>
-			<a href="<?php echo site_url('welcome/kota'); ?>">Daftar Kota</a>
+			<a href="<?php echo site_url('welcome/reverse'); ?>">Reverse Geocoding</a>
 			<div class="search-container">
 			    <input type="text" placeholder="Search.." name="search" autocomplete="off">
 			   	<button type="submit"><i class="fa fa-search"></i></button>
