@@ -9,7 +9,7 @@ Mini Project ini dibuat sebagai aplikasi informasi cuaca dengan data dari https:
 
 #Fitur yang terdapat di aplikasi ini<br>
 1.Pencarian dan Menampilkan Indormasi Cuaca Berdasarkan Kota<br>
-2.CRUD Kota<br>
+2.CRUD Kota(nama_domain/welcome/daftar_kota)<br>
 3.Penyimpanan hasil dari pencarian informasi cuaca<br>
 
 #Installation<br>
@@ -24,4 +24,4 @@ Mini Project ini dibuat sebagai aplikasi informasi cuaca dengan data dari https:
 sesuaikan dengan settingan database yang kalian miliki
 5. jalankan aplikasi mu di browser dengan link sesuai path project berada
 
-<img src="/ridwanfarizki/miniproject/raw/master/tampilan1.png" style="max-width:100%;">
+<img src="https://raw.githubusercontent.com/ridwanfarizki/miniproject/master/tampilan1.PNG" style="max-width:100%;">
