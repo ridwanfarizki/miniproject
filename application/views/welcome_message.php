@@ -130,55 +130,5 @@ function save_search(resultdata){
 		}
 	})
 }
-
-$.ajax({
-		  crossOrigin: true,
-		  url: "https://www.metaweather.com/api/location/1047378/",
-		  //dataType: "json", //no need. if you use crossOrigin, the dataType will be override with "json"
-		  //charset: 'ISO-8859-1', //use it to define the charset of the target url
-		  context: {},
-		  success: function(data) {
-		  	obj= JSON.parse(data);
-		  	console.log(obj);
-			//recs = data.consolidated_weather;
-          	var content ='';
-          	var DateNow = moment().format('YYYY-MM-DD');
-
-          /*	recs.forEach(function(v,i){
-          		if(i == 0){
-          			content +='<div class="col-md-12 col-sm-6 text-center hide-content">';
-          			content +='<div class="row">';
-					content +='<h1 class="col-md-12 text-center">Today</h1>';
-					content +='<div class="col-md-5 text-right" style="margin-top:30px;"><p style="font-size:100px">'+Math.round(v.the_temp)+'&deg;</p><h1><span class="text-danger">'+Math.round(v.max_temp)+'&deg;</span>/<span class="text-info">'+Math.round(v.min_temp)+'&deg;</span></h1></div><div class="col-md-2"><img src="https://www.metaweather.com/static/img/weather/'+v.weather_state_abbr+'.svg" class="img-fluid"/></div><div class="col-md-4 text-left"><div style="background: rgba(151,224,170,0.5); width:100%; border-radius:20px;padding:10px;"><h1>'+data.title+',<span style="font-size:20px;">'+data.parent.title+'</span></h1><p>Time : '+moment(data.time).format('DD MMM YYYY HH:mm:ss')+'</p> <p>Sunrise : '+moment(data.sun_rise).format('HH:mm:ss')+'</p><p>Sunset : '+moment(data.sun_set).format('HH:mm:ss')+'</p></div></div>';
-					content +='</div>';
-					content +='<div class="col-md-6"></div>';
-					content +='</div>';
-					content +='<div class="col-md-12 text-center hide-content"><h1 style="font-size:65px" class="text-info">'+v.weather_state_name+'</h1></div>';
-					content +='<div class="col-md-12 hide-content"><i style="font-size:25px;" class="fa fa-asterisk text-light"></i> <span style="font-size:25px;" class="text-info">Wind Speed: <span class="text-light">'+Math.floor(v.wind_speed)+'mph. </span><i style="font-size:25px;" class="fa fa-tint text-light"></i><span style="font-size:25px;" class="text-info"> Air Pressure<span class="text-light">: '+Math.round(v.air_pressure)+'mb</span></div>';
-					content +='<div class="col-md-2 col-sm-6 col-6 hide-list" style="margin-top:10px;">';
-					content +='<div class="col-12 text-center alert alert-primary"><h5>Today</h5></div>';
-					content +='<div class="row alert alert-light" style="margin:0px;"><div class="col-md-6 col-sm-6 text-right"><img src="https://www.metaweather.com/static/img/weather/'+v.weather_state_abbr+'.svg" class="img-fluid"/ style="width:100%"></div>';
-					content +='<div class="col-md-6 col-sm-6" style="margin-top: 15px;"><div class="col-md-6"><h4 class="text-danger">'+Math.round(v.max_temp)+'&deg;</h4></div><div class="col-md-6"><h4 class="text-info">'+Math.round(v.min_temp)+'&deg;</h4></div></div>';
-					content +='<div class="col-md-12">'+v.weather_state_name+'</div></div>';
-					content +='</div>';
-          		}else{
-          			content +='<div class="col-md-2 col-sm-6 col-6" style="margin-top:10px;">';
-					content +='<div class="col-12 text-center alert alert-primary"><h5>'+moment(v.applicable_date).format('dddd')+'</h5></div>';
-					content +='<div class="row alert alert-light" style="margin:0px;"><div class="col-md-6 col-sm-6 text-right"><img src="https://www.metaweather.com/static/img/weather/'+v.weather_state_abbr+'.svg" class="img-fluid"/></div>';
-					content +='<div class="col-md-6 col-sm-6" style="margin-top: 15px;"><div class="col-md-6"><h4 class="text-danger">'+Math.round(v.max_temp)+'&deg;</h4></div><div class="col-md-6"><h4 class="text-info">'+Math.round(v.min_temp)+'&deg;</h4></div></div>';
-					content +='<div class="col-md-12">'+v.weather_state_name+'</div></div>';
-					content +='</div>';
-          		}
-          	});*/
-          	$('.content').html(content);
-			}
-		})
-		.done(function( data, textStatus, jqXHR ) {
-			//alert(data);
-		});
-
-
-
-
 </script>
 </html>
