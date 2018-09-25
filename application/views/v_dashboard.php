@@ -31,6 +31,7 @@
                                 <th>Nama Kota</th>
                                 <th>User Agent</th>
                                 <th>Deskripsi</th>
+                                <th>Created date</th>
                                 <th>Detail</th>
                             </tr>
                         </tfoot>

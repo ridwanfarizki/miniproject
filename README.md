@@ -1,4 +1,3 @@
-
 #Cara Penggunaan Mini Project<br>
 Mini Project ini dibuat sebagai aplikasi informasi cuaca dengan data dari https://www.metaweather.com/api/ yang menampilkan berdasarkan hari ini sampai dengan hari berikutnya sampai 5 hari kedepan. Aplikasi ini memiliki fitur pencarian berdasarkan kota, menyimpan hasil informasi cuaca berdasarkan pencarian kota.
 
@@ -24,4 +23,4 @@ Mini Project ini dibuat sebagai aplikasi informasi cuaca dengan data dari https:
 sesuaikan dengan settingan database yang kalian miliki
 5. jalankan aplikasi mu di browser dengan link sesuai path project berada
 
-<img src="https://raw.githubusercontent.com/ridwanfarizki/miniproject/master/tampilan1.PNG" style="max-width:100%;">
+<img src="https://raw.githubusercontent.com/ridwanfarizki/miniproject/master/tampilan1.JPG" style="max-width:100%;">
