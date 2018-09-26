@@ -63,13 +63,14 @@
 
 function get_weather(kode){
 	$.ajax({
-		crossOrigin: true,
+		//crossOrigin: true,
         url : "https://www.metaweather.com/api/location/"+kode+"/",
         type: "get",
         crossDomain : true,
         dataType: 'json',
         success : function(data,status,xhr) {
-        	obj= JSON.parse(data);
+        	//obj= JSON.parse(data);
+        	obj = data;
           	recs = obj.consolidated_weather;
           	var content ='';
           	var DateNow = moment().format('YYYY-MM-DD');
