@@ -11,12 +11,6 @@ Mini Project ini dibuat sebagai aplikasi informasi cuaca dengan data dari https:
 3.Penyimpanan hasil dari pencarian informasi cuaca<br>
 
 #Installation<br>
-
-1. Install dan aktifkan Addon Allow-Control-Allow-Origin: * pada chrome(parse data json dari https://www.metaweather.com/api/ ke aplikasi karena penggunaan pada localhost)
-2. Masukkan folder projek "miniproject" ke dalam htdocs atau web server
-3. import database miniproject.sql
-4. setting database.php di project/application/config/database<br>
-
 1. Masukkan folder projek "miniproject" ke dalam htdocs atau web server
 2. import database miniproject.sql
 3. setting database.php di project/application/config/database<br>
@@ -26,6 +20,7 @@ Mini Project ini dibuat sebagai aplikasi informasi cuaca dengan data dari https:
 	'database' => 'miniproject', <br>
 sesuaikan dengan settingan database yang kalian miliki
 4. jalankan aplikasi mu di browser dengan link sesuai path project berada
+
 
 <img src="https://raw.githubusercontent.com/ridwanfarizki/miniproject/master/tampilan1.JPG" style="max-width:100%;">
 

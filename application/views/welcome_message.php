@@ -63,9 +63,10 @@
 
 function get_weather(kode){
 	$.ajax({
-		//crossOrigin: true,
+		crossOrigin: true,
         url : "https://www.metaweather.com/api/location/"+kode+"/",
         type: "get",
+        proxy : "<?php echo base_url('welcome/proxy'); ?>",
         crossDomain : true,
         dataType: 'json',
         success : function(data,status,xhr) {
